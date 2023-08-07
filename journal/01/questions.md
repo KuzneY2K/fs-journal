@@ -12,7 +12,7 @@
     > | ANSWER HERE |
 
 05. What problems do you think you could run into if you over-utilized the `!important` feature?
-    > | ANSWER HERE |
+    > Overlapping !important and broken code.
 
 06. What are the three components that makeup a `CSS` rule? <br> Example:
 
