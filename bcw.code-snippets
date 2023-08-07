@@ -1,0 +1,83 @@
+{
+    "Bootstrap Link": {
+        "prefix": "link:b5",
+        "body": [
+            "<link href='https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css' rel='stylesheet' integrity='sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD' crossorigin='anonymous'>"
+        ],
+        "description": "Bootstrap Link"
+    },
+    "Font Awesome": {
+        "prefix": "link:fa5",
+        "body": [
+            "<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css\" integrity=\"sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==\" crossorigin=\"anonymous\" />"
+        ],
+        "description": "Font Awesome"
+    },
+    "Material Design Icon Link": {
+        "prefix": "link:mdi",
+        "body": [
+            "  <link rel=\"stylesheet\" href=\"//cdn.materialdesignicons.com/5.4.55/css/materialdesignicons.min.css\">"
+        ],
+        "description": "Material Design Icon Link"
+    },
+    "MDI i tag": {
+        "prefix": "mdi:i",
+        "body": [
+            "<i class=\"mdi mdi-${1:icon}\"></i>"
+        ],
+        "description": "start of an i tag with mdi inserted",
+    },
+    "Debug Style Tag": {
+        "prefix": "style:debug",
+        "body": [
+            "<style>",
+            "  body.debug .container,",
+            "  body.debug .container-fluid {",
+            "    outline: 2px double blue;",
+            "    outline-offset: -2px;",
+            "  }",
+            "",
+            "  body.debug .row {",
+            "    outline: 2px dashed red;",
+            "    outline-offset: -2px;",
+            "  }",
+            "",
+            "  body.debug [class*=\"col-\"] {",
+            "    outline: 2px dotted forestgreen;",
+            "    outline-offset: -3px;",
+            "  }",
+            "</style>"
+        ],
+        "description": "Debug Style Tag"
+    },
+    "Axios Link": {
+        "prefix": "script:axios",
+        "body": [
+            "<script src=\"https://cdnjs.cloudflare.com/ajax/libs/axios/0.23.0/axios.min.js\" ></script>"
+        ],
+        "description": "Axios Link"
+    },
+    "Vue Template with Imports": {
+        "prefix": "vt:imports",
+        "body": [
+            "<template>\n\t<div class=\"${1:component}\">\n\n\n\t</div>\n</template>\n\n",
+            "<script>\nimport { AppState } from '../AppState';\nimport { computed, reactive, onMounted } from 'vue';\nexport default {\n\tsetup(){\n\treturn {  }\n\t}\n};\n</script>\n\n",
+            "<style lang=\"scss\" scoped>\n\n</style>"
+        ],
+        "description": "A simple vue template builder"
+    },
+    "Bootstrap Link": {
+        "prefix": "bs",
+        "body": "<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css'>",
+        "description": "Style Link to Boostrap 4"
+    },
+    "Vue Template Basic": {
+        "prefix": "vt:basic",
+        "body": [
+            "<template>\n</template>\n\n",
+            "<script>\n</script>\n\n",
+            "<style lang=\"scss\" scoped>\n\n</style>"
+        ],
+        "description": "A simple vue template builder"
+    }
+}
