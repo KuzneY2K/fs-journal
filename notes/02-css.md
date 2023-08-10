@@ -53,3 +53,7 @@ text-center on div will center image ⭐⭐
 Dont text center paragraphs.
 
 Text center header and then text-start paragraph
+
+Buttons must be wrapped in a div to align. If buttons arent wrapped then they cant be aligned and wont move anywhere because they are an inline element instead of block.
+
+absolute and relative positions must be used tandem in order to work properly. the DOM is by default relative so a button thats absolute will move relative to the DOM. if the button were to be wrapped by another div like a navbar, the button will move relative to the navbar.

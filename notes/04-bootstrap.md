@@ -52,3 +52,5 @@ img-fluid makes images fit into whatever container theyre in
 text-center on div will center image ⭐⭐
 
 Text center header and then text-start paragraph
+
+text-md-center - breakpoint for text align
