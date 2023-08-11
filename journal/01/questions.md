@@ -36,10 +36,10 @@
     professional. If a business can't invest or put effort into their website, then how else will I know that they invest and put effort into what they are wanting to sell to me?
 
 08. What is the purpose of ***wireframing***?
-    > | ANSWER HERE |
+    > The purpose of wireframing is setting up a blueprint for a project. It can help developers start projects with a solid idea and a basic layout.
 
 09. Do you think wireframes are worth the time, energy, and effort that they require? Why or Why not?
-    > | ANSWER HERE |
+    > I believe that they are. Trying to work on something from pure scratch can be pretty difficult. Also 9 times out of 10 I start forgetting ideas when I start working on a section so its good to have a layout on hand.
 
 10. Define the display `:flex property:`
     > The flex property makes a website layout more flexible than standard plain old CSS.
