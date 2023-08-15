@@ -85,3 +85,60 @@ function addNumber(numberOutputOne.innerHTML, numberOutputTwo.innerHTML){
     console.log(x + y)
     return x + y - you can give back numbers with a return and store them
 }
+
+<!-- array with object -->
+
+let userData = [
+    {
+        name: 'test'
+        othername: 'test'
+        address: {street: 'test', state: 'test', zipCode: 'test'}
+    },
+    {
+        name:
+        othername:
+        favoriteFood: ['food', 'food', 'food', 'food']
+    }
+
+]
+
+for (let i = 0; i <= userData.length; i++){
+    let user = userData[i]
+    runInfo(user)
+}
+
+function runInfo(user){
+    console.log(userData.name, userData.favoriteFood)
+}
+
+userData.forEach(runInfo)
+
+for each user run their info
+
+anonymous function
+no name function, good for buttons
+
+
+                    this variable is targeting to userData, creating temp variable
+userData.forEach((user, i) => {
+    console.log(i)  writes index(position) number
+    console.log(user.name)
+})
+
+runs and destroys it self 
+
+userData.forEach((user) => {
+    console.log('area')
+   let inArea = userData.filter((user) => user.currentArea == area)
+   let userEmoji = inArea.map((user) => user.emoji + user.name)
+    document.getElementById(area).innerText = userEmojis.join(",")
+})
+
+    searches the array for the user that is in the area and logs them if their
+    current area is the area that was originally console logged
+
+userData.map((user)=> user.name)
+
+.join turns array into a string
+
+find filter map
