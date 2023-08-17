@@ -38,7 +38,12 @@
 
 06. Give an example of a JavaScript `Conditional`:
 
-    > | ANSWER HERE |
+    let example = 'example'
+    > an if statement. if(example === 'example'){
+        alert('example')
+    } else {
+        alert('example is not an example')
+    }
 
 07. What is the main difference between `parameters` and `arguments`?
 
