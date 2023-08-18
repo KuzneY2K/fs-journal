@@ -9,7 +9,7 @@
 
 03. What are the `SOLID` principles?
 
-    > | ANSWER HERE |
+    > | Single responsibility principle, open/closed principle, liskov substitution principle, interface segregation principle, dependency inversion principle
 
 04. Given this array: How could you remove the `pineapple`?
 
@@ -17,7 +17,7 @@
     let fruit = ['apple', 'banana', 'pineapple', 'orange', 'strawberry']
     ```
 
-    > | ANSWER HERE |
+    > | delete fruit[2]
 
 05. Given these two objects: How could you add each to the others friends arrays?
 
@@ -47,16 +47,20 @@
 
 07. What is the main difference between `parameters` and `arguments`?
 
-    > | ANSWER HERE |
+    > parameters are listed in the function and arguements are passed down as parameters into a function
 
 08. Instead of writing everything to the console, what is a better way to debug your code?
 
-    > | ANSWER HERE |
+    > A better way to debug would be using "debugger" in a line of code
 
 09. What is the difference between a `primitive` value and a `reference` value?
 
-    > | ANSWER HERE |
+    > primitive values are strings and numbers such as "let x = 6" and "let y = 'test'"
+    a reference value is a value that is stored in memory and can be accessed as a reference, for example
+    "let z = x"
 
 10. Demonstrate a loop that prints the numbers between -100 and 100?
 
-    > | ANSWER HERE |
+    > for let(i = -101; i <= 101; i++){
+        console.log('i')
+    }
