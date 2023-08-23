@@ -143,4 +143,12 @@ userData.map((user)=> user.name)
 
 find filter map
 
+----- make own event emitter ---
 
+const myEvent = new Event('my-event')
+
+elem.addEventListener('my-event', () => {
+    drawSomething();
+})
+
+elem.dispatchEvent('my-event')

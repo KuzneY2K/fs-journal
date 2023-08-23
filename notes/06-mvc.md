@@ -1,37 +1,19 @@
 # MVC
 
-export class Gachamon {
-    constructor (name, icon, picture){
-        this.name = name
-        this.icon = icon
-        this.picture = picture
-    }
-}
+have a main.js or app.js linked as a type="module"
 
-let newmon = new Gachamon('New Mon', imglink, imgfile)
+have a router set up that mounts controllers, look at template for reference
 
-constructors can share names with parameter names
+set everything up thats public inside of classes and export
 
+private functions look like _privateFunction(), underscore means prive and dont mess with
 
+models contain data blueprints, appstate holds actual true data
 
-router
+all data manipulation is to be handled in service since its going to directly change the appstate
 
-import {controller name} from './ file path'
+pass form data through constructor from service
+ex: let newCar = new Car(formData)
 
-export const router = [{
-    path: '',
-    controller: [controller name],
-    view: html goes here
-}]
-
-drawGachamonList(){
-    const gachamon = AppState.gachamons
-
-    gachamon.forEach(g => g.ListTemplater)
-}
-
-
-
-gotta be paired with .on
-Adds a listener/observer on change and then does function
-AppState.on('activeGachamon', this.drawActiveGachamon)
+Also in service after changes have been made there needs to be an emit so that
+the change is caught. 
