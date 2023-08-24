@@ -33,8 +33,8 @@
 
 09. What is the job of the `Service` in `MVC`?
   
-  > | ANSWER HERE |
+  > Service directly communicates with the state and is the the only file to be able to apply changes to the state
 
 10. What is the job of the `Model` in `MVC`?
   
-  > | ANSWER HERE |
+  > The job of the model is to be the fundamental blueprint of a data set.
