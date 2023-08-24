@@ -143,12 +143,69 @@ userData.map((user)=> user.name)
 
 find filter map
 
+
+
 ----- make own event emitter ---
 
 const myEvent = new Event('my-event')
+
+elem.dispatchEvent('my-event')
 
 elem.addEventListener('my-event', () => {
     drawSomething();
 })
 
-elem.dispatchEvent('my-event')
+local storage
+
+localStorage.setItem(key, value)
+localStorage.getItem(key)
+localStorage.removeItem(key)
+localStorage.clear()
+
+ex...
+
+localStorage.setItem('username', 'markMark55')
+
+if (localStorage.username === 'markMark55'){
+    return 'Its mark'
+}
+
+localStorage.setItem('myCat', 'kitty')
+
+const cat = localStorage.getItem('myCat')
+
+constructors are used for creating and initializing instances of their class.
+
+get date
+
+let date = new Date() <= gives timestamp
+                    ^
+                    you can put a date in the args and change time stamp, ex. 3-12-2017
+
+
+.onsubmit="myFunction()" works for submit buttons for forms
+
+ternary
+this.reportedData = data.reportedData ? new Data(data.reportedData) : new Date()
+                            new date?      do this if true            else do this
+
+
+.slice() sting method can take in the index of a string and take another index and slice everything else out
+
+
+get reportBody
+return this.reportBody.slice(0, 15) + "..."
+
+will return characters 0 - 15 and will add a ... at the end
+the getter will change the display of the string without changing the orignial
+
+drawing to dom will look like: foreach content += template
+content is empty ''
+
+using null allows us to use true/false / bool
+can set an object default by just putting it on the file as null ex. activeCases = null <= will set to false by default
+
+AppState.on('activeCase') listens for an changes in the activeCase object <= arg MUST be exact.
+
+.split(' ') on every space it will split the string up and toss the word or whatever into the array
+.join(' ') will insert a space between each index when combining into a string
