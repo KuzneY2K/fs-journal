@@ -209,3 +209,32 @@ AppState.on('activeCase') listens for an changes in the activeCase object <= arg
 
 .split(' ') on every space it will split the string up and toss the word or whatever into the array
 .join(' ') will insert a space between each index when combining into a string
+
+
+Fisher Yates Shuffle Algo
+
+for (let i = array.length - 1; i > 0; i--){
+    const j = Math.floor(Math.random() * (i + 1))
+    [array[i], array[j]] = [array[j], array[i]]
+}
+
+Another Similar Algorithm
+
+
+  shuffleArray(array) {
+    // Loop Through Array
+    for (let i = 0; i < array.length; i++) {
+      // Create Random Number 0 - Array Length
+      const swapIndex = Math.floor(Math.random() * array.length)
+      // Current Index
+      const currentIndex = array[i]
+      // Finds Random Index
+      const indexToSwap = array[swapIndex]
+      // Swaps Current Index With Random Index
+      array[i] = indexToSwap
+      // Swaps The Random Index With the Old Index
+      array[swapIndex] = currentIndex
+      // Randomized
+    }
+    return array
+  }
