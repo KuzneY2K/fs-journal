@@ -176,3 +176,23 @@ remove the one index
 replace that index with updated index
 
 after editing appstate make sure to emit('stuffs') or whatever you edited so that the on('stuff') fires what you need
+
+api.delete(`api/cars/${this.carId}}`) 
+
+create read update delete
+
+get post put delete
+
+
+Object.keys(obj).join('\n')
+
+.join() will combine everything in an array to a string
+
+ternany
+if its this ? or if its this ? do this for both : if only first one than this : if neither then damb
+
+q1 ? q2 ? tt : tf : ff
+
+two ways to tell if something is an array, Array.isArray(something) ? console.log(true) : console.log(damb)
+
+make sure to push to local app state after posting
