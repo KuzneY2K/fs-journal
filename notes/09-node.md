@@ -36,6 +36,33 @@ DBConnection.connect()
 Params take out what is in the URL 
 
 
-ObjectId will always reference from "ref" and always pull data from that.\
+ObjectId will always reference from "ref" and always pull data from that.
+
+type: schema.types.objectid, ref: 'parent collection'
 
 request.query can be passed into .find() method
+
+api/examples?key=value &name=test+query or &key=value <= will turn obj into array
+
+{ toJSON: {vituals: true} }
+
+AnimalSchema.virtual('exhibit', 
+{
+    THIS schema
+localfield: 'exhibitid' 
+REFERENCING other schema
+ref: 'Exhibit', 
+from OTHER schema we take _id for THIS schema
+foreignField: "_id", 
+justOne: 'true'
+})
+
+.populate('exhibit') after mongoose method
+syntax for multiple args loogs like this 'biome emoji'
+
+get animals from specific exhibit for example
+
+/:exhibitId/animals
+
+ternary works better with BOOL
+
