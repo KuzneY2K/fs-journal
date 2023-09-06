@@ -31,9 +31,11 @@ response.send(can only send one thing)
 
 next moves on to the next thing and eventually sends user back to starting point
 
-mongodb+srv://mkuzfl:markMarkmark@cluster0.tdofteo.mongodb.net/?retryWrites=true&w=majority
-goes to .env in vscode
-
 DBConnection.connect()
 
 Params take out what is in the URL 
+
+
+ObjectId will always reference from "ref" and always pull data from that.\
+
+request.query can be passed into .find() method
