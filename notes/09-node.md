@@ -66,3 +66,6 @@ get animals from specific exhibit for example
 
 ternary works better with BOOL
 
+<!-- AUTH0 -->
+
+Go to applications => Applications and create and application
