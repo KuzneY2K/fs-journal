@@ -90,3 +90,19 @@ on login users will be generated an object id from mongo db
 domain, client id and audience <= important need
 
 set up .env in server, then head to client and set up env.js with auth0
+
+
+In postman, you can paste bearer token in the Auth tab <= network, preview, token
+You can also paste the bearer token for the whole collection
+
+const body = request.body
+
+You can get a list of stuff or have stuff render in before having to log in
+.get()
+.use(Auth0Provider.AuthorizeUserInfo)
+^^^^
+This middle ware will only let people post put and delete when logged in
+
+This will attach an Auth id onto a customer
+body.customerId = request.userInfo.id
+.populate('customer')
