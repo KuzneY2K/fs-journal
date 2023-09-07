@@ -77,4 +77,4 @@ scroll to allowed urls
 Need to modify Allowed Callback URL, Allowed Logout URL, Allowed Web Origins
 Notifies where the user is making a login/logout request
 
-create api, copy down api audience
+Create and API and give it a name and an identifier, dont touch signing algo
