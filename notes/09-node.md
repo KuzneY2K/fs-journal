@@ -78,3 +78,11 @@ Need to modify Allowed Callback URL, Allowed Logout URL, Allowed Web Origins
 Notifies where the user is making a login/logout request
 
 Create and API and give it a name and an identifier, dont touch signing algo
+
+go to actions and go to flows, then go to log in
+
+next to add action, the build custom
+
+extend_user_info_with_mongo_id, for name
+
+on login users will be generated an object id from mongo db
