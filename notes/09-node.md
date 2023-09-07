@@ -69,3 +69,5 @@ ternary works better with BOOL
 <!-- AUTH0 -->
 
 Go to applications => Applications and create and application
+
+Copy domain and client id under settings.
