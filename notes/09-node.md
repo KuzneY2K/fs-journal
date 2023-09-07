@@ -71,3 +71,8 @@ ternary works better with BOOL
 Go to applications => Applications and create and application
 
 Copy domain and client id under settings.
+
+Need to modify Allowed Callback URL, Allowed Logout URL, Allowed Web Origins
+Notifies where the user is making a login/logout request
+
+create api
