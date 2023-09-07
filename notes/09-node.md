@@ -86,3 +86,7 @@ next to add action, the build custom
 extend_user_info_with_mongo_id, for name
 
 on login users will be generated an object id from mongo db
+
+domain, client id and audience <= important need
+
+set up .env in server, then head to client and set up env.js with auth0
