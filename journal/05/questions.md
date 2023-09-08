@@ -9,7 +9,7 @@
 
 03. What does `ORM` stand for? Which `ORM` do we use when interacting with MongoDB
 
-  > | ANSWER HERE |
+  > Object relational mapping. We use this in Mongo to map foreign objects to actual objects in a model.
 
 04. Which two `HTTP` request types include a body?
 
@@ -17,24 +17,24 @@
 
 05. In a/an _______ coding model, when you call a function, it returns only when the action has finished and stops your program for the time the action takes. Likewise in a/an _______ coding model, multiple things are allowed to happen at one time. When you perform an action, your program continues to run.  Fill in the blanks.
 
-  > | ANSWER HERE |
+  > synchronous, asynchronous
 
 06. What are the three types of data relationships? Provide an example of each.
 
-  > | ANSWER HERE |
+  > One to One, One to Many, Many to Many
 
 07. What is middleware?
 
-  > | ANSWER HERE |
+  > Middleware is used to modify the body of a request and response. It is also the middle man between request and may be used for authentication. It is a request handler.
 
 08. The ______ pipeline delivers information from the client while the ______ pipeline returns it. Fill in the blanks. 
 
-  > | ANSWER HERE |
+  > request, response
 
 09. Demonstrate the pattern that is used to include a request query with the client's `HTTP` request providing the property `tag` and the value `winter`.
 
-  > | ANSWER HERE |
+  > get request
 
 10. What is a ***virtual property***?
 
-  > | ANSWER HERE |
+  > Virtuals are additional properties in a model. They store other relevant infromation such as names obtained from different

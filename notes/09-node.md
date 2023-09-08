@@ -106,3 +106,6 @@ This middle ware will only let people post put and delete when logged in
 This will attach an Auth id onto a customer
 body.customerId = request.userInfo.id
 .populate('customer')
+
+dont need to make another axios instance since the server already holds the api.
+I can just create http requests pointing at "api/whatever"
