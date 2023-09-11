@@ -44,3 +44,5 @@ foodItems: computed(()=> AppState.foodItems) <= will listen for changes
 
 props work like schemas
 
+attributes not bound with {{}} ???
+
