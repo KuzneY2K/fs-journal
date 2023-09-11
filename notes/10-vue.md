@@ -25,3 +25,5 @@ Drill with computed to GET values and SUBSCRIBE to changes for reactivity.
 
 v-if will render an element on condition. v-if="something.value == 1"
 
+: binds attribute to a certain statement. :disabled="health == 0"
+
