@@ -31,4 +31,6 @@ You can bind classes
         :class="{text-danger": health > 75,
         text-warn": health > 30 && health < 75}"
 
+Use curly braces when creating multiple conditions since it becomes and object.
+
 
