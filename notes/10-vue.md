@@ -33,4 +33,9 @@ You can bind classes
 
 Use curly braces when creating multiple conditions since it becomes and object.
 
+You can conditionally bind styles. 
+:style="{
+    backgroundColor: health == 0 ? 'red' : 'green'
+}"
+
 
