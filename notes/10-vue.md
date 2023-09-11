@@ -16,3 +16,6 @@ Have to use ref() for reactivity. ref() turns into object that has a .value prop
 In the template when something is double bound, youre telling vue to put the .value on the view automatically. Double bind is {{}}
 
 You can ONLY make objects reactive.
+
+Accessing instances from the AppState is the same as before.
+setup is private and return is public, so make sure to return setup.
