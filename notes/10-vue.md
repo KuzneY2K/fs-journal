@@ -27,3 +27,8 @@ v-if will render an element on condition. v-if="something.value == 1"
 
 : binds attribute to a certain statement. :disabled="health == 0"
 
+You can bind classes 
+        :class="{text-danger": health > 75,
+        text-warn": health > 30 && health < 75}"
+
+
