@@ -38,4 +38,9 @@ You can conditionally bind styles.
     backgroundColor: health == 0 ? 'red' : 'green'
 }"
 
+v-for="item in foodItems" :key='item.id' vue will repeat component 10 times
+
+foodItems: computed(()=> AppState.foodItems) <= will listen for changes
+
+props work like schemas
 
