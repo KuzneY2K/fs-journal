@@ -13,4 +13,4 @@ Rule of thumb is not to exceed 150 lines of code.
 
 Have to use ref() for reactivity. ref() turns into object that has a .value property.
 
-In the template when something is double bound, youre telling vue to put the .value on the view automatically. 
+In the template when something is double bound, youre telling vue to put the .value on the view automatically. Double bind is {{}}
