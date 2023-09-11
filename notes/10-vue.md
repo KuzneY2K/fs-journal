@@ -21,4 +21,4 @@ Accessing instances from the AppState is the same as before.
 setup is private and return is public, so make sure to return setup.
 
 computed(() => AppState.thingToDrill) similar to ref. not intended to be modified. it is a get. 
-Drill with computed to get values and subscribe
+Drill with computed to GET values and SUBSCRIBE to changes for reactivity.
