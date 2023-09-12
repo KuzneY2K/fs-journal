@@ -74,3 +74,5 @@ All of this is literally the samething weve been doing the whole time/
 
 @submit.prevent
 @click.prevent    <= both will prevent forms from refreshing page on submit
+
+event.target.reset() <= clears form the old way
