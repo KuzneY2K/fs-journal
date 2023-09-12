@@ -52,3 +52,5 @@ onUpdated()
 onUnmounted()
 it will run specific functions when triggered.
 
+Pass function definition within the return and the code will be able to access it.
+
