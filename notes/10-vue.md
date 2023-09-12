@@ -52,5 +52,6 @@ onUpdated()
 onUnmounted()
 it will run specific functions when triggered.
 
-Pass function definition within the return and the code will be able to access it.
+Members outside of the return is acessible by the code in the set up
+Members inside of the return are accessible by the template
 
