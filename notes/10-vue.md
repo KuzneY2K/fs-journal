@@ -58,6 +58,7 @@ Members inside of the return are accessible by the template
 Instead of using = in a reactive state, use : since you are inside an object at that 
 
 The page that uses prop data is reponsible for passing the prop data
+Passed down data must be bound or else an error will be thrown talm bout stringss
 
 ex <MovieCard :move="Movie"/>
 
