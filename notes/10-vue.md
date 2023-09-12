@@ -59,5 +59,5 @@ Instead of using = in a reactive state, use : since you are inside an object at 
 
 The page that uses prop data is reponsible for passing the prop data
 
-ex <MovieCard move="this is a movie"/>
+ex <MovieCard :move="Movie"/>
 
