@@ -62,3 +62,5 @@ Passed down data must be bound or else an error will be thrown talm bout strings
 
 ex <MovieCard :move="Movie"/>
 
+To access props inside of setup, set up needs to take in props as an argument
+
