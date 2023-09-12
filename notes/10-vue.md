@@ -71,3 +71,6 @@ Return code to make it accessible within template
 When clearing forms the VALUE needs to be redefined to '', so something.value = ''
 
 All of this is literally the samething weve been doing the whole time/
+
+@submit.prevent
+@click.prevent    <= both will prevent forms from refreshing page on submit
