@@ -65,3 +65,5 @@ ex <MovieCard :move="Movie"/>
 To access props inside of setup, set up needs to take in props as an arguments
 
 Elvis operator ? keeps your code from reaching into undefined
+
+Return code to make it accessible within template
