@@ -46,3 +46,9 @@ props work like schemas
 
 attributes not bound with {{}} ???
 
+lifecycle hooks:
+onMounted()
+onUpdated()
+onUnmounted()
+it will run specific functions when triggered.
+
