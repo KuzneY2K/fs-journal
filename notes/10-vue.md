@@ -55,5 +55,9 @@ it will run specific functions when triggered.
 Members outside of the return is acessible by the code in the set up
 Members inside of the return are accessible by the template
 
-Instead of using = in a reactive state, use : since you are inside an object at that point
+Instead of using = in a reactive state, use : since you are inside an object at that 
+
+The page that uses prop data is reponsible for passing the prop data
+
+ex <MovieCard move="this is a movie"/>
 
