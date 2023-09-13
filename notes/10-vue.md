@@ -100,4 +100,6 @@ v-model can be used as a two way data bind and can render the input that the use
 Clear form using somethingObject.value = {}
 Use router push to get sent to new listing that was created with form
 
+return res.data.id to the component to access the new listing
+
 Check VUE dev tools to see if anything is registering to the ref object
