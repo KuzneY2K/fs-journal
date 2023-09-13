@@ -98,5 +98,6 @@ ref('') is good for single input, for multiple use ref({}) and just use same par
 v-model can be used as a two way data bind and can render the input that the user has added in. So if I plug in a car image into a url then the page will render that image using :src="carData.imageUrl"
 
 Clear form using somethingObject.value = {}
+Use router push to get sent to new listing that was created with form
 
 Check VUE dev tools to see if anything is registering to the ref object
