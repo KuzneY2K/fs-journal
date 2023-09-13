@@ -95,4 +95,6 @@ route.params.whateverId
 
 ref('') is good for single input, for multiple use ref({}) and just use same param on v-model. ex: v-model="carData.make", v-model="carData.model" instead of using .value
 
+v-model can be used as a two way data bind and can render the input that the user has added in. So if I plug in a car image into a url then the page will render that image using :src="carData.imageUrl"
+
 Check VUE dev tools to see if anything is registering to the ref object
