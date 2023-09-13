@@ -94,3 +94,5 @@ The router is what moves you around, the route is where you are at, your URL
 route.params.whateverId
 
 ref('') is good for single input, for multiple use ref({}) and just use same param on v-model. ex: v-model="carData.make", v-model="carData.model" instead of using .value
+
+Check VUE dev tools to see if anything is registering to the ref object
