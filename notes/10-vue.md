@@ -86,3 +86,5 @@ Router can be accessed within set up
 Router.push({name: Home}) <= Router can be used like this to navigate. 
 
 Use links instead of buttons with methods to navigate around the website
+
+Individual pages should handle getting the data that require to show/use and nothing more
