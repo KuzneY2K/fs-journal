@@ -83,3 +83,5 @@ router-link :to="{name: Home}" will take a user to a link in thats in the router
 
 Router can be accessed within set up
 Router.push({name: Home}) <= Router can be used like this to navigate. 
+
+Use links instead of buttons with methods to navigate around the website
