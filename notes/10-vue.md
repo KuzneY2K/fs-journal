@@ -78,3 +78,5 @@ All of this is literally the samething weve been doing the whole time/
 event.target.reset() <= clears form the old way
 
 Pages vs Component, Pages are defined within the router. Other than that, theres really no big difference.
+
+router-link :to="{name: Home}" will take a user to a link in thats in the router
