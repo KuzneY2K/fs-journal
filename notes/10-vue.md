@@ -83,7 +83,8 @@ router-link :to="{name: Home}" will take a user to a link in thats in the router
 Good for changing route without having to click anything. Good for like a check out, ex: getting sent to the payment thing automatically
 
 Router can be accessed within set up
-Router.push({name: Home}) <= Router can be used like this to navigate. 
+Router.push({name: 'Home'}) <= Router can be used like this to navigate. 
+Used with: route = Route.use()     router = Router.use()
 
 Use links instead of buttons with methods to navigate around the website
 
