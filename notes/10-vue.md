@@ -88,3 +88,5 @@ Router.push({name: Home}) <= Router can be used like this to navigate.
 Use links instead of buttons with methods to navigate around the website
 
 Individual pages should handle getting the data that require to show/use and nothing more
+
+The router is what moves you around, the route is where you are at, your URL
