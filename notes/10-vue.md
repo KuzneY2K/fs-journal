@@ -139,4 +139,5 @@ Slots used as a way to pass in a template into a template
 <slot></slot>
 
 <Component>OH YEAH</Component> open and close component and pass in something
+try pasting whole components into that
 
