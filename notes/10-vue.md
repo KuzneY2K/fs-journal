@@ -164,3 +164,10 @@ when passing an id into function use route.params.whateverId
 ^^ make sure to initialize state so that the previous data isnt staying for a bit
 
 elvis operator keeps stuff from being accessd if its null
+
+watchEffect(()=>{
+    attaches listeners to any piece of reactive data inside of its function
+
+    profileData.value = AppState.profile
+    that will keep a form populated for making edits to a profile
+})
