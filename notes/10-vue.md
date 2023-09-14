@@ -144,3 +144,7 @@ data-bs-dismiss="modal" <= closes modal
 if you insert template tags you can add targets and it will only render the target, like #header, #body etc
 try pasting whole components into that
 
+<MainComponent :showThis="true" />
+will pass prop bool into the main component and will end up rendering "this"
+the prop must first be declared inside the component
+
