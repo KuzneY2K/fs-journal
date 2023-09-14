@@ -159,4 +159,5 @@ columns: 200px; creates columns for images, looks clean
 MAKE SURE TO USE v-if , IF THERE IS NOTHING ACTIVE SET
 
 const route = useRoute() <= pulls ID from url
+params will be api/endpoint?creatorId={profileId}
 when passing an id into function use route.params.whateverId
