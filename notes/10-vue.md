@@ -157,3 +157,6 @@ selectable makes hover effect on element
 columns: 200px; creates columns for images, looks clean
 
 MAKE SURE TO USE v-if , IF THERE IS NOTHING ACTIVE SET
+
+const route = useRoute() <= pulls ID from url
+when passing an id into function use route.params.whateverId
