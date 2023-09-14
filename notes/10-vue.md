@@ -121,3 +121,11 @@ const routes = [
 
 Check for .js when importing Vue components.
 
+props: {projecet: {types: Project, required: true}}
+
+if this is made outside of a set up it needs to be passed into the set up so that its accessible
+
+setup(props){
+
+}
+
