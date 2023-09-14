@@ -138,6 +138,8 @@ and now CSS can access this data and it can be used
 Slots used as a way to pass in a template into a template
 <slot></slot>
 
+data-bs-dismiss="modal" <= closes modal
+
 <Component>OH YEAH</Component> open and close component and pass in something
 if you insert template tags you can add targets and it will only render the target, like #header, #body etc
 try pasting whole components into that
