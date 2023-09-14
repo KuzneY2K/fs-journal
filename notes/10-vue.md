@@ -161,3 +161,4 @@ MAKE SURE TO USE v-if , IF THERE IS NOTHING ACTIVE SET
 const route = useRoute() <= pulls ID from url
 params will be api/endpoint?creatorId={profileId}
 when passing an id into function use route.params.whateverId
+^^ make sure to initialize state so that the previous data isnt staying for a bit
