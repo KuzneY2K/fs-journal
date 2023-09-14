@@ -147,4 +147,3 @@ try pasting whole components into that
 <MainComponent :showThis="true" />
 will pass prop bool into the main component and will end up rendering "this"
 the prop must first be declared inside the component
-
