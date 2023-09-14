@@ -111,6 +111,7 @@ HTML
 
     <router-link to="/">Go to Home</router-link>
     <router-link to="/about">Go to About</router-link>
+    <router-link :to="{name: Profile, params: {profileId: project.creatorId}}">Go to About</router-link>
 
 VUE JS
 
@@ -154,3 +155,5 @@ the prop must first be declared inside the component
 selectable makes hover effect on element
 
 columns: 200px; creates columns for images, looks clean
+
+MAKE SURE TO USE v-if , IF THERE IS NOTHING ACTIVE SET
