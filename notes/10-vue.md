@@ -145,5 +145,8 @@ if you insert template tags you can add targets and it will only render the targ
 try pasting whole components into that
 
 <MainComponent :showThis="true" />
+
+AND INSIDE <template v-if="showThis"> I will render </template>
+
 will pass prop bool into the main component and will end up rendering "this"
 the prop must first be declared inside the component
