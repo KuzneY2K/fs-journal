@@ -162,3 +162,5 @@ const route = useRoute() <= pulls ID from url
 params will be api/endpoint?creatorId={profileId}
 when passing an id into function use route.params.whateverId
 ^^ make sure to initialize state so that the previous data isnt staying for a bit
+
+elvis operator keeps stuff from being accessd if its null
