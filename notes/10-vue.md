@@ -129,3 +129,10 @@ setup(props){
 
 }
 
+INJECTION example:
+
+coverImg: computed(()=> `url(${props.project.coverImg})`)
+
+and now CSS can access this data and it can be used
+
+Slots used as a way to pass in a template into a template
