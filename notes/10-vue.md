@@ -108,4 +108,3 @@ Check VUE dev tools to see if anything is registering to the ref object
 
 
 
-
