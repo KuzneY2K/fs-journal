@@ -138,3 +138,5 @@ and now CSS can access this data and it can be used
 Slots used as a way to pass in a template into a template
 <slot></slot>
 
+<Component>OH YEAH</Component> open and close component and pass in something
+
