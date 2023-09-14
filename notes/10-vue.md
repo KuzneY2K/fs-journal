@@ -152,3 +152,5 @@ will pass prop bool into the main component and will end up rendering "this"
 the prop must first be declared inside the component
 
 selectable makes hover effect on element
+
+columns: 200px; creates columns for images, looks clean
