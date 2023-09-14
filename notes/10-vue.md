@@ -139,5 +139,6 @@ Slots used as a way to pass in a template into a template
 <slot></slot>
 
 <Component>OH YEAH</Component> open and close component and pass in something
+if you insert template tags you can add targets and it will only render the target, like #header, #body etc
 try pasting whole components into that
 
