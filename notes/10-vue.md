@@ -119,4 +119,5 @@ const routes = [
   { path: '/about', component: About },
 ]
 
+Check for .js when importing Vue components.
 
