@@ -110,6 +110,6 @@ body.customerId = request.userInfo.id
 dont need to make another axios instance since the server already holds the api.
 I can just create http requests pointing at "api/whatever"
 
-make sure .populate is awaited since the method is a promise
+make sure .populate is awaited since the method is a promise.
 
 only on .find methods should .populate be tacked onto the end.
