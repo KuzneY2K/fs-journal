@@ -117,4 +117,4 @@ only on .find methods should .populate be tacked onto the end.
 .sort('-createdAt') will have mongoose sort by created at, or you can even use updated at.
 tacked on after find method, on db context
 
-user.isAuthenticated better than using account.id 
+user.isAuthenticated better than using account.id since userinfo comes back first
