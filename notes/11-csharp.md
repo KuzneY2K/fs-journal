@@ -90,4 +90,4 @@ namespace projectTesting;
 
 using works like import
 
-using projectTesting.Models; <= thats importing every mode
+using projectTesting.Models; <= thats importing every model
