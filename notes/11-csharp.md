@@ -70,6 +70,10 @@ data decorators/attributes affect the next definition, making our class an API c
 [Route("api/cats")]
 public class CatsController : ControllerBase{
 
+    private readonly CatsService _catsService;
+
+    public CatsC
+
     putting [HttpGet] in front of function makes it an http request
 
     [HttpGet]
