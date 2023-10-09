@@ -95,3 +95,8 @@ namespace projectTesting;
 using works like import
 
 using projectTesting.Models; <= thats importing every model
+
+dollar sign at the start of string will let you use curly brackets anywhere in the string
+
+id = Guid.NewGuid();
+randomized unique id
