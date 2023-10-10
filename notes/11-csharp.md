@@ -103,3 +103,15 @@ randomized unique id
 
 <!-- DB VCONNECt -->
 
+private readonly IDbConnection _db;
+
+public WhateverRepository(IDbConnection db)
+{
+    _db = db;
+}
+
+internal List<Thing> GetAllThings()
+{
+    string sql = "SELECT * FROM things;";
+    List<Things> things = _db.Query<>(sql)
+}
