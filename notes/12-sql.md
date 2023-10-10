@@ -53,3 +53,10 @@ Write it down
 Next need master connection end point
 Go to database
 Create new connection
+
+sgroot
+LemkmpZQ9Q-a1YLt
+
+SG-mark-sandbox-7903-mysql-master.servers.mongodirector.com <= connection end point
+
+jdbc:mysql://SG-mark-sandbox-7903-mysql-master.servers.mongodirector.com:3306/<your-database-name> <= connection string
