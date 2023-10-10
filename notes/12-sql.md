@@ -34,3 +34,5 @@ SELECT name FROM FRIENDS WHERE 'hasJOB' = true AND age < 30; <= gets names for p
 SELECT name FROM FRIENDS WHERE name LIKE '%mark%'; <= regex search;
 
 SELECT name FROM friends ORDER BY age; <= can use ASC or DESC
+
+SELECT name FROM friends LIMIT 2; <= offset skips
