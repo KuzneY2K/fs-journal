@@ -117,3 +117,5 @@ internal List<Thing> GetAllThings()
                                     ^^^^ <= this will map data from tables to prop. that is the data type of the row, or what it should be.
     return things;
 }
+
+use .FirstOrDefault(); when searching something by id in repository
