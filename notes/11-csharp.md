@@ -162,7 +162,7 @@ internal Friend UpdateFriend(Friend friendData)
     name = @name,
     age = @age,
     isStudent = @isStudent
-    WHERE id = @friendId; SELECT * FROM id WHERE id = @friendId
+    WHERE id = @id; SELECT * FROM id WHERE id = @id
     ";
     Friend friend = _db.Query<Friend>(sql, friendData).FirstOrDefault();
     return friend;
