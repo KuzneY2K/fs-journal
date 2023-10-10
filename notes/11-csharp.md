@@ -123,3 +123,10 @@ use .FirstOrDefault(); when searching something by id in repository
 mySQL variables can be instantiated with @
 
 to avoid sql injection attacks pass a key value pair into the query to match and pull values
+
+string sql = @"
+INSERT INTO cars
+(name, age, isStudent, hasJob)
+VALUES
+(@name, @age, @isStudent, @hasJob)
+"
