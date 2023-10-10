@@ -22,3 +22,7 @@ INSERT INTO friends(
 VALUES(
     'Mark', '24', born, true, false
 )
+
+SELECT name, age FROM friends;
+
+SELECT * FROM FRIENDS; <= get all columns
