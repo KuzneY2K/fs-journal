@@ -26,3 +26,5 @@ VALUES(
 SELECT name, age FROM friends;
 
 SELECT * FROM FRIENDS; <= get all columns
+
+SELECT name FROM FRIENDS WHERE 'isStudent' = true;
