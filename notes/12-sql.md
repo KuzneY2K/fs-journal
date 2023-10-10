@@ -28,3 +28,9 @@ SELECT name, age FROM friends;
 SELECT * FROM FRIENDS; <= get all columns
 
 SELECT name FROM FRIENDS WHERE 'isStudent' = true; <= gets all names that has 'isStudent as true'
+
+SELECT name FROM FRIENDS WHERE 'hasJOB' = true AND age < 30; <= gets names for people with jobs and under 30;
+
+SELECT name FROM FRIENDS WHERE name LIKE '%mark%'; <= regex search;
+
+SELECT name FROM friends ORDER BY age; <= can use ASC or DESC
