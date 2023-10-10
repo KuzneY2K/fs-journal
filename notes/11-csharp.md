@@ -119,3 +119,5 @@ internal List<Thing> GetAllThings()
 }
 
 use .FirstOrDefault(); when searching something by id in repository
+
+mySQL variables can be instantiated with @
