@@ -114,5 +114,6 @@ internal List<Thing> GetAllThings()
 {
     string sql = "SELECT * FROM things;";
     List<Things> things = _db.Query<Thing>(sql)
-                                ^^^^ <= this will map data from tables to prop
+                                ^^^^ <= this will map data from tables to prop. that is the data type of the row, or what it should be.
+    return things;
 }
