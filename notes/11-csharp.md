@@ -129,4 +129,5 @@ INSERT INTO cars
 (name, age, isStudent, hasJob)
 VALUES
 (@name, @age, @isStudent, @hasJob)
+SELECT * FROM friends WHERE id = LAST_INSERT_ID();
 "
