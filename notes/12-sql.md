@@ -27,4 +27,4 @@ SELECT name, age FROM friends;
 
 SELECT * FROM FRIENDS; <= get all columns
 
-SELECT name FROM FRIENDS WHERE 'isStudent' = true;
+SELECT name FROM FRIENDS WHERE 'isStudent' = true; <= gets all names that has 'isStudent as true'
