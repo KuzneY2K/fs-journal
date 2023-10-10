@@ -131,3 +131,6 @@ VALUES
 (@name, @age, @isStudent, @hasJob) 
 SELECT * FROM friends WHERE id = LAST_INSERT_ID();
 "
+
+if(rowsAffected > 1) throw new Exception("YOU DELETED IT ALL")
+if(rowsAffected < 1) throw new Exception("YOU GOOD")
