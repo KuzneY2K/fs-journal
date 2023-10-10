@@ -37,4 +37,4 @@ SELECT name FROM friends ORDER BY age; <= can use ASC or DESC
 
 SELECT name FROM friends LIMIT 2; <= offset skips
 
-DELETE FROM friends; <= delete
+DELETE FROM friends; <= delete all rows
