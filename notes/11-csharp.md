@@ -144,3 +144,27 @@ original.name = updateData.name != null ? updataData.name : original.name
 
 So datatypes are not nullable so you can go to the model and set a ? at the end of a data type to make it nullable
 or you can add two ?? to make it nullable
+
+there is no .save() method like Mongo. Instead you need to make an update method
+
+Friend friend = _repo.UpdateFriend(original)
+{
+    return friend;
+}
+
+over at repo
+
+internal Friend UpdateFriend(Friend friendData)
+{
+    string sql = "@
+    UPDATE friends
+    SET
+    name = @name,
+    age = @age,
+    isStudent = @isStudent
+    WHERE id = @friendId
+    ";
+    Friend friend = _db.Query<Friend>(sql, friendData).FirstOrDefault();
+    return friend;
+}
+    
