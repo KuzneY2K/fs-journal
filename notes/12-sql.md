@@ -17,7 +17,7 @@ CREATE TABLE friends(
 )
 
 INSERT INTO friends(
-    name, age, born, isStudent, hasJob
+    name, age, isStudent, hasJob
 )
 VALUES(
     'Mark', '24', born, true, false
