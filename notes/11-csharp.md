@@ -122,4 +122,4 @@ use .FirstOrDefault(); when searching something by id in repository
 
 mySQL variables can be instantiated with @
 
-pass object that will have its key's and value ran to sanitize db input
+to avoid sql injection attacks pass a key value pair into the query to match and pull values
