@@ -37,4 +37,19 @@ SELECT name FROM friends ORDER BY age; <= can use ASC or DESC
 
 SELECT name FROM friends LIMIT 2; <= offset skips
 
+SELECT * FROM friends WHERE id = 1;
+
 DELETE FROM friends; <= delete all rows
+
+DELETE FROM hotdogs WHERE id = 5; <= deletes by id
+
+UPDATE friends SET age = 20 WHERE id = 3;
+
+Create database
+Name whatever
+Go to overview
+Look at username and password
+Write it down
+Next need master connection end point
+Go to database
+Create new connection
