@@ -64,3 +64,5 @@ SELECT LAST_INSERT_ID();
 SELECT * FROM cars WHERE id = LAST_INSERT_ID();
 
 Gets the last item that was injected into the database
+
+LIMIT 1 keeps people from entering multiple things
