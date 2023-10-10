@@ -58,3 +58,4 @@ sgroot
 LemkmpZQ9Q-a1YLt
 
 SG-mark-sandbox-7903-mysql-master.servers.mongodirector.com <= connection end point
+
