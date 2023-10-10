@@ -134,3 +134,12 @@ SELECT * FROM friends WHERE id = LAST_INSERT_ID();
 
 if(rowsAffected > 1) throw new Exception("YOU DELETED IT ALL")
 if(rowsAffected < 1) throw new Exception("YOU GOOD")
+
+no truthy falsy in C#!SECTION
+
+ternary works a little differently
+
+Friend original = this.getFriendById(updataData.id)
+original.name = updateData.name != null ? updataData.name : original.name
+
+So datatypes are not nullable so you can go to the model and set a ? at the end of a data type to make it nullable
