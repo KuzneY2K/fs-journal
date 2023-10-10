@@ -59,3 +59,8 @@ LemkmpZQ9Q-a1YLt
 
 SG-mark-sandbox-7903-mysql-master.servers.mongodirector.com <= connection end point
 
+SELECT LAST_INSERT_ID();
+
+SELECT * FROM cars WHERE id = LAST_INSERT_ID();
+
+Gets the last item that was injected into the database
