@@ -100,3 +100,6 @@ dollar sign at the start of string will let you use curly brackets anywhere in t
 
 id = Guid.NewGuid();
 randomized unique id
+
+<!-- DB VCONNECt -->
+
