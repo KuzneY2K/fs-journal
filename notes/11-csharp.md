@@ -113,5 +113,6 @@ public WhateverRepository(IDbConnection db)
 internal List<Thing> GetAllThings()
 {
     string sql = "SELECT * FROM things;";
-    List<Things> things = _db.Query<>(sql)
+    List<Things> things = _db.Query<Thing>(sql)
+                                ^^^^ <= this will map data from tables to prop
 }
