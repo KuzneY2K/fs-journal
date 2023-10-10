@@ -143,3 +143,4 @@ Friend original = this.getFriendById(updataData.id)
 original.name = updateData.name != null ? updataData.name : original.name
 
 So datatypes are not nullable so you can go to the model and set a ? at the end of a data type to make it nullable
+or you can add two ?? to make it nullable
