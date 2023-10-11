@@ -75,3 +75,5 @@ List<Album> albums = _db.Query<Album, Account, Album>(sql, (album, account)=>{
 <!-- Importing auth dependency -->
 
 private readonly Auth0Provider _auth0; <= add as param to constructor and then _auth= = auth0
+
+When using async in C# we must use task. Creates a new thread for the async req to run in and ends thread when we return the promise
