@@ -63,3 +63,5 @@ Gets the last item that was injected into the database
 LIMIT 1 keeps people from entering multiple things
 
 creatorId VARCHAR(255) NOT NULL, FOREIGN KEY (creatorId) REFERENCES accounts(id) <= when making creatorId it will reference the accountId. Needs comma before FOREIGN KEY
+
+@"SELECT * FROM albums alb JOIN accounts act ON act.id == alb.creatorId" <= gets albums mathching account id with creator id
