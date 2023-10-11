@@ -188,3 +188,5 @@ ex: public async Task<ActionResult<Album>> Create([FromBody] DATATYPE whateverIt
 This decorator will guard the HTTP request below it. Adding this decorator over [ApiController] protects all of the HTTP requests in the controller.
 
 ASYNC FUNCTIONS MUST BE WRAPPED IN A TASK SO THAT IT CAN RUN ON ITS OWN THREAD
+
+When using Auth0 ids make sure the data type is a string because thats exactly what it is, a STRING
