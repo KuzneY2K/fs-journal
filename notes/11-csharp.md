@@ -173,7 +173,7 @@ internal Friend UpdateFriend(Friend friendData)
 
                                                 Actual return type
 List<Album> albums = _db.Query<Album, Account, Album>(sql, (album, account)=>{
-                                Aliased out =>                Aliases for what is being returned
+                                Aliased out =>                Aliases for what is being returned, bananna words
 }).ToList();
 
 <!-- Importing auth dependency -->
