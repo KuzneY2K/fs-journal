@@ -167,4 +167,14 @@ internal Friend UpdateFriend(Friend friendData)
     Friend friend = _db.Query<Friend>(sql, friendData).FirstOrDefault();
     return friend;
 }
+
+<!-- Importing auth dependency -->
+
+private readonly Auth0Provider _auth0; <= add as param to constructor and then _auth= = auth0
+
+When using async in C# we must use task. Creates a new thread for the async req to run in and ends thread when we return the promise
+
+ex: public async Task<ActionResult<Album>> Create([FromBody] DATATYPE whateverItsCalled)
+
+
     
