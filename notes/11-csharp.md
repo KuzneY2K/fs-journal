@@ -176,5 +176,5 @@ When using async in C# we must use task. Creates a new thread for the async req 
 
 ex: public async Task<ActionResult<Album>> Create([FromBody] DATATYPE whateverItsCalled)
 
-
-    
+[Authorize]
+This decorator will guard the HTTP request below it. Adding this decorator over [ApiController] protects all of the HTTP requests in the controller.
