@@ -65,3 +65,9 @@ LIMIT 1 keeps people from entering multiple things
 creatorId VARCHAR(255) NOT NULL, FOREIGN KEY (creatorId) REFERENCES accounts(id) <= when making creatorId it will reference the accountId. Needs comma before FOREIGN KEY
 
 @"SELECT * FROM albums alb JOIN accounts act ON act.id == alb.creatorId" <= gets albums mathching account id with creator id
+
+
+                                                Actual return type
+List<Album> albums = _db.Query<Album, Account, Album>(sql, (album, account)=>{
+                                Aliased out =>                Aliases for what is being returned
+}).ToList();
