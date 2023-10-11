@@ -71,3 +71,7 @@ creatorId VARCHAR(255) NOT NULL, FOREIGN KEY (creatorId) REFERENCES accounts(id)
 List<Album> albums = _db.Query<Album, Account, Album>(sql, (album, account)=>{
                                 Aliased out =>                Aliases for what is being returned
 }).ToList();
+
+<!-- Importing auth dependency -->
+
+private readonly Auth0Provider _auth0; <= add as param to constructor and then _auth= = auth0
