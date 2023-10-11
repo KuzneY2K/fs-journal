@@ -154,7 +154,7 @@ Friend friend = _repo.UpdateFriend(original)
 
 over at repo
 
-internal Friend UpdateFriend(Friend friendData)````````
+internal Friend UpdateFriend(Friend friendData)`````````
 {
     string sql = "@
     UPDATE friends
