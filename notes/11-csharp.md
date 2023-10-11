@@ -168,6 +168,14 @@ internal Friend UpdateFriend(Friend friendData)
     return friend;
 }
 
+@"SELECT * FROM albums alb JOIN accounts act ON act.id == alb.creatorId" <= gets albums mathching account id with creator id
+
+
+                                                Actual return type
+List<Album> albums = _db.Query<Album, Account, Album>(sql, (album, account)=>{
+                                Aliased out =>                Aliases for what is being returned
+}).ToList();
+
 <!-- Importing auth dependency -->
 
 private readonly Auth0Provider _auth0; <= add as param to constructor and then _auth= = auth0
