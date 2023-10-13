@@ -30,9 +30,10 @@
 06. In the Car example what is `string` an indication of?
 
   > Type
+
 07. In the Car example what is `abstract` preventing?
 
-  > | ANSWER HERE |
+  > Code duplication
 
 08. In a SQL table, what is the difference between information in a row and information in a column?
 
