@@ -37,12 +37,36 @@
 
 08. In a SQL table, what is the difference between information in a row and information in a column?
 
-  > | ANSWER HERE |
+  > The row is a model, the column is the value in that model
 
 09. Demonstrate the necessary SQL for creating a table called `characters` with the values `name, age, description` as strings, and an `int` id.
 
-  > | ANSWER HERE |
+  > CREATE TABLE
+    IF NOT EXISTS characters(
+      name VARCHAR(250),
+      age VARCHAR(50),
+      description VARCHAR(1000),
+    )DEFAULT CHARSET UTF8;
+
+  internal Character CreateNewChar(Character characterData){
+
+  string sql = @"
+    INSERT INTO characters
+    (name, age, descriptions)
+    VALUES
+    (@name, @age, @description);
+  ;";
+
+  Character newChar = _db.Query<Character>(sql, characterData).FirstOrDefault();
+
+  }
 
 10. In SQL how can you query more than a single table? Provide an example.
 
-  > | ANSWER HERE |
+  > SELECT
+    account.*,
+    order.*
+    FROM orders order
+    JOIN customers customer ON order.customerId = account.id
+    WHERE order.id = @orderID
+
