@@ -1,7 +1,7 @@
 # CSharp and SQL Fundamentals
 01. What is the purpose of a `namespace`?
 
-  > | ANSWER HERE |
+  > To declare a score that contains related items.
 
 02. What is the difference between a `class` and an `interface`?
 
