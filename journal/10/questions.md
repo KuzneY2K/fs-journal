@@ -30,7 +30,7 @@
 06. In the Car example what is `string` an indication of?
 
   > Typee
-eeeeee
+eeeeeef
 07. In the Car example what is `abstract` preventing?
 
   > | ANSWER HERE |
