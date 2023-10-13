@@ -5,11 +5,11 @@
 
 02. What is the difference between a `class` and an `interface`?
 
-  > | ANSWER HERE |
+  > An interface carries definitions while a class defines and implements those methods. This allows the usage of those methods anywhere in the scope.
 
 03. What is the method that returns an instance of a class, yet it has no return type?
 
-  > | ANSWER HERE |
+  > a constructor
 
 05. In the Car example what is the access modifier of the `Start()` method?
 
@@ -25,11 +25,11 @@
   }
   ```
 
-  > | ANSWER HERE |
+  > Public
 
 06. In the Car example what is `string` an indication of?
 
-  > | ANSWER HERE |
+  > Type
 
 07. In the Car example what is `abstract` preventing?
 
