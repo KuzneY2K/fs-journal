@@ -194,3 +194,4 @@ When using Auth0 ids make sure the data type is a string because thats exactly w
 an interface defines a single method (contract) that can be used and made unique by multiple concrete classes in the same scope. ex: I can Console.WriteLine a unique message on every class I have without compilation errors. The method can ONLY be defined NOT implemented
 
 an abstract reduces code redundancy. I can define and implement methods within the abstract to make them inheritable. I dont even have to define and implement the method in those concrete classes because they are already defined in that abstract. they will be automatically called if a call back BUT i can also create unique abstract methods by ONLY defining the method and the overriding it in the concrete class.
+
