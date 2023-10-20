@@ -47,4 +47,9 @@
 
   ```
 
-  > | ANSWER HERE |
+  > sql = @"
+      SELECT pat.id, doc.*
+      FROM patient_doctors AS pat
+      JOIN doctors AS doc
+      ON pat.doctorId = doc.id
+  ;";
