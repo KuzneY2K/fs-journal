@@ -9,5 +9,4 @@ My name is Mark Kuznetsov. I am a student at [CodeWorks](https://boisecodeworks.
 
 ## Contact
 
-* [Resume](https://MarkKuzne.github.io/resume)
 * Email: mark@kuznedev.pro
