@@ -65,3 +65,7 @@ LIMIT 1 keeps people from entering multiple things
 creatorId VARCHAR(255) NOT NULL, FOREIGN KEY (creatorId) REFERENCES accounts(id) <= when making creatorId it will reference the accountId. Needs comma before FOREIGN KEY
 
 
+<!-- AWS -->
+
+750 hours of run time for AWS
+
